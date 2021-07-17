@@ -18,8 +18,8 @@ WiFiClient wifiClient;
 #include <ESP8266WebServer.h>
 #include <ESP8266HTTPClient.h>
 
-char myssid[] = "rpi";         // your network SSID (name)
-char mypass[] = "ellen123";          // your network password
+char myssid[] = "your router ssid";         // your network SSID (name)
+char mypass[] = "your router password";          // your network password
 
 // REPLACE with your Domain name and URL path or IP address with path
 const char* serverName = "http://fleettrans.000webhostapp.com/backend/sensor_post.php";
@@ -29,7 +29,7 @@ String apiKeyValue = "tPmAT5Ab3j7F9";
 //Credentials for Google GeoLocation API...
 const char* Host = "www.googleapis.com";
 String thisPage = "/geolocation/v1/geolocate?key=";
-String key = "AIzaSyArU1DD-86Nj2pLoWJN3bGYAUYt347VyXY";
+String key = "YOUR API KEY";
 
 int status = WL_IDLE_STATUS;
 String jsonString = "{\n";
@@ -163,7 +163,7 @@ void loop() {
 
   //Connect to the client and make the api call
   Serial.print("Requesting URL: ");
-  Serial.println("https://" + (String)Host + thisPage + "AIzaSyArU1DD-86Nj2pLoWJN3bGYAUYt347VyXY");
+  Serial.println("https://" + (String)Host + thisPage + "YOUR API KEY");
   Serial.println(" ");
   if (client.connect(Host, 443)) {
     Serial.println("Connected");
