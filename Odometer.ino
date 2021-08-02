@@ -207,7 +207,7 @@ void loop() {
   delay(2000);
 
  //Wait for calibration, let the geolocation api be fully connected
-  if(millis() > 60000){
+  if(longitude > 0){
   value = calculate_distance();
   distance += value;
 
