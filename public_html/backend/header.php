@@ -1,0 +1,17 @@
+<?php
+session_start();
+if(!$_SESSION){
+  echo "<script type='text/javascript'>alert('You are not logged in')</script>";
+  exit();
+}else{
+	
+  if($_SESSION['role'] != 2){
+  echo "<script type='text/javascript'>alert('You don\'t have permission to view this page')</script>";
+  exit();
+  
+  }else{
+    echo "Welcome ". $_SESSION['company_name'];
+  }
+
+}
+?>
