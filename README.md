@@ -13,3 +13,7 @@ The haversine distance formula played well in this project
 + Edit the API variable in the .ino with your Google Geolocation Api
  - To learn about getting your Google Geolocation API, check this https://www.youtube.com/watch?v=9CmGMYnHR-U
 + Upload the .ino file to your Esp8266
+
+## To read the incoming data
++ You should be familiar with PHP, SQL and any WEBHOSTING platform
++ 
