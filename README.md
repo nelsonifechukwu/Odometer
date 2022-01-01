@@ -24,5 +24,5 @@ The haversine distance formula played well in this project
 
 + Edit the .ino file
 
-- Variable: Servername with the direct link of sensor.php in your webhosting platform
-- Variable: api_key with your own api_key defined in public_html/backend/sensor_post.php
+ + Variable: Servername with the direct link of sensor.php in your webhosting platform
+ + Variable: api_key with your own api_key defined in public_html/backend/sensor_post.php
