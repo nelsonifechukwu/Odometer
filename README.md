@@ -29,3 +29,4 @@ The haversine distance formula played well in this project
   - api_key with your own api_key defined in public_html/backend/sensor_post.php
 
 + Reupload to your ESP8266 MCU
++ You should see the mileage covered on the deployed website in your webhosting platform
