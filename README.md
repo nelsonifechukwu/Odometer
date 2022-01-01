@@ -12,9 +12,10 @@ The haversine distance formula played well in this project
 + Edit the .ino file, replacing ssid and password with your credentials.
 + Edit the API variable in the .ino with your Google Geolocation Api
  - To learn about getting your Google Geolocation API, check this https://www.youtube.com/watch?v=9CmGMYnHR-U
-+ Upload the .ino file to your Esp8266
++ Upload the .ino file to your Esp8266 MCU
++ You should begin to see the logitude and latitude of your exact location
 
-## To read the incoming data
+## To read Mileage
 + You should be familiar with PHP, SQL and any WEBHOSTING platform
 + Upload the public_html into the webhosting platform
 + Create your database in the webhosting platform and import the .sql file
@@ -26,3 +27,5 @@ The haversine distance formula played well in this project
 
   - servername with the direct link of sensor.php in your webhosting platform
   - api_key with your own api_key defined in public_html/backend/sensor_post.php
+
++ Reupload to your ESP8266 MCU
