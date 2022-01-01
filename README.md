@@ -20,6 +20,4 @@ The haversine distance formula played well in this project
 + Create your database in the webhosting platform and import the .sql file
 + Setup your PHP connections in
  
-```ruby
-```public_html/backend/connections/connections.php
-```
+> public_html/backend/connections/connections.php
