@@ -20,9 +20,9 @@ The haversine distance formula played well in this project
 + Create your database in the webhosting platform and import the .sql file
 + Setup your PHP connections in
  
-> public_html/backend/connections/connections.php
+  - public_html/backend/connections/connections.php
 
-+ Edit the .ino file
++ Edit the following variables in the .ino file
 
-  - Variable: Servername with the direct link of sensor.php in your webhosting platform
-  - Variable: api_key with your own api_key defined in public_html/backend/sensor_post.php
+  - servername with the direct link of sensor.php in your webhosting platform
+  - api_key with your own api_key defined in public_html/backend/sensor_post.php
