@@ -21,3 +21,8 @@ The haversine distance formula played well in this project
 + Setup your PHP connections in
  
 > public_html/backend/connections/connections.php
+
++ Edit the .ino file
+
+> Variable: Servername with the direct link of sensor.php in your webhosting platform
+> Variable: Apikey with your own apikey defined in
