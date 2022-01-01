@@ -18,4 +18,8 @@ The haversine distance formula played well in this project
 + You should be familiar with PHP, SQL and any WEBHOSTING platform
 + Upload the public_html into the webhosting platform
 + Create your database in the webhosting platform and import the .sql file
-+ Setup your PHP connections in public_html/backend/connections/connections.php
++ Setup your PHP connections in
+ 
+```ruby
+```public_html/backend/connections/connections.php
+```
