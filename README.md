@@ -1,4 +1,4 @@
-# Odometer using ESP8266 and Google Geolocation API
+# IoT enabled Odometer 
 
 ## Introduction 
 
